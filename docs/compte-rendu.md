@@ -1,6 +1,6 @@
 # Compte rendu global des TP1 à TP3
 
-**Équipe (trio) :** Othmane TOUITAT KABBAJ ([@othmanekt0]), Mohammed BARRA ([@À COMPLÉTER]) et Abderrahmane NAHHAL ([@À COMPLÉTER])
+**Équipe (trio) :** Othmane TOUITAT KABBAJ ([@othmanekt0]), Mohammed BARRA ([@mohammedbarra2005-arch]) et Abderrahmane NAHHAL ([@AbderrahmaneNahhal])
 **Dépôt :** https://github.com/othmanekt0/TOUITAT_KABBAJ_OTHMANE-A--BARRA_Mohammed-B--NAHHAL_Abderrahmane-C
 **Date :** 14/10/2026
 
@@ -111,10 +111,10 @@ Avec les moyens d'une vraie équipe : (1) entraîner sur de vrais avis clients d
 
 | Membre | Ce qu'il a pris en charge |
 | --- | --- |
-| Othmane TOUITAT KABBAJ | [À COMPLÉTER : par exemple, mise en place locale, exécution des TP2 et TP3, interface, rédaction] |
-| Mohammed BARRA | [À COMPLÉTER] |
-| Abderrahmane NAHHAL | [À COMPLÉTER] |
+| Othmane TOUITAT KABBAJ | cadrage, mise en place du dépôt, TP2 (modèle, évaluation, analyse des erreurs), tests, CI, commits et push. |
+| Mohammed BARRA | L'interface Streamlit (TP3) : onglets, affichage des verdicts et du seuil « à vérifier », import et export de fichiers CSV. |
+| Abderrahmane NAHHAL | La rédaction du compte rendu. |
 
 ## Outils d'aide à la rédaction
 
-Nous avons utilisé un assistant d'IA (Claude) pour nous guider pas à pas dans les commandes des TP2 et TP3 et pour préparer le brouillon de ce compte rendu à partir de nos sorties de terminal. Nous avons vérifié nous-mêmes que les chiffres correspondent à `models/metrics.json`, à nos sorties de `evaluate.py` et à nos exports de l'interface, que les 45 tests passent et que la CI est verte. [À COMPLÉTER : ce que vous avez relu et réécrit vous-mêmes.]
+Nous avons utilisé un assistant d'IA (Claude) pour nous guider pas à pas dans les commandes des TP2 et TP3 et pour préparer le brouillon de ce compte rendu à partir de nos sorties de terminal. Nous avons vérifié nous-mêmes que les chiffres correspondent à `models/metrics.json`, à nos sorties de `evaluate.py` et à nos exports de l'interface, que les 45 tests passent et que la CI est verte.
