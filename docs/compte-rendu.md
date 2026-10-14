@@ -105,7 +105,7 @@ L'interface Streamlit a trois onglets, dont l'analyse d'un avis isolé et l'anal
 
 ## 7. Ce que nous ferions autrement
 
-Avec les moyens d'une vraie équipe : (1) entraîner sur de vrais avis clients de l'entreprise, étiquetés par leur note, au lieu de critiques de films, et mesurer le rappel négatif sur un jeu de test de ce même domaine ; (2) essayer des embeddings de phrases pour traiter les avis mitigés ; (3) mesurer le seuil sur un jeu de validation, puis le tester en conditions réelles, en comptant la charge réelle des agents ; (4) harmoniser dès le premier jour la configuration Git des trois membres et le nom du dépôt ; (5) enregistrer les métriques de chaque entraînement séparément, pour ne pas écraser celles d'un jeu par celles d'un autre.
+Avec les moyens d'une vraie équipe : (1) entraîner sur de vrais avis clients de l'entreprise, étiquetés par leur note, au lieu de critiques de films, et mesurer le rappel négatif sur un jeu de test de ce même domaine ; (2) essayer des embeddings de phrases pour traiter les avis mitigés ; (3) mesurer le seuil sur un jeu de validation, puis le tester en conditions réelles, en comptant sur la charge réelle des agents ; (4) harmoniser dès le premier jour la configuration Git des trois membres et le nom du dépôt ; (5) enregistrer les métriques de chaque entraînement séparément, pour ne pas écraser celles d'un jeu par celles d'un autre.
 
 ## 8. Répartition du travail
 
