@@ -62,5 +62,17 @@
 
 # 
 
-# 
+# Les deux protections ne couvrent pas les mêmes cas. À l'essai dans /docs, {"text": ""}
+
+# reçoit un 422 dont detail est une liste d'objets (type string\_too\_short, loc body/text) :
+
+# c'est Pydantic. Mais {"text": "   "} (trois espaces) passe le schéma, car la chaîne
+
+# n'est pas vide, et c'est predict() qui le refuse : le 422 porte alors une simple chaîne,
+
+# "texte vide". Un même refus a donc deux formes selon la couche qui le détecte. La
+
+# double vérification est utile, car predict() sert aussi hors de l'API, mais cette
+
+# incohérence de format est un défaut à corriger.
 
