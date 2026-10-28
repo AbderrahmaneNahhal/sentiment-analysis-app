@@ -15,7 +15,7 @@
 
 | Symptôme | Test qui l'a révélé | Correction |
 | --- | --- | --- |
-| … | … | … |
+| Texte d'espaces (`"   "`, `'\x85'`) : 422 avec `detail` en chaîne, forme différente du 422 standard | `test_frontieres_du_contrat[espaces-seuls]` et `test_propriete_texte_de_blancs` (falsifying example `texte='\x85'`) | `field_validator` dans `api/schemas.py` : refuse un texte vide une fois ses blancs retirés, même règle que `predict()` ; 10 passed trois fois de suite |
 
 ## 3. Seuil d'abstention
 
